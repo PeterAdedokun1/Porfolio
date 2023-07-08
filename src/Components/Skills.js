@@ -11,77 +11,20 @@ function Skills() {
       <Title title={"My Skills"} span={"my skills"} />
       <InnerLayout>
         <div className="skills">
-          <ProgressBar
-            // <FaHtml5/>
-            title={"HTML5"}
-            // width={'99%'}
-            // text={'99%'}
-          />
-          <ProgressBar
-            title={"CSS3"}
-            // width={'99%'}
-            // text={'99%'}
-          />
-          <ProgressBar
-            title={"BOOTSTRAP"}
-            // width={'98%'}
-            // text={'98%'}
-          />
-          <ProgressBar
-            title={"TAILWINDCSS"}
-            // width={'70%'}
-            // text={'70%'}
-          />
-          <ProgressBar
-            title={"SASS"}
-            // width={'70%'}
-            // text={'70%'}
-          />
-          <ProgressBar
-            title={"JAVASCRIPT"}
-            // width={'95%'}
-            // text={'95%'}
-          />
-          <ProgressBar
-            title={"REACTJS"}
-            // width={'90%'}
-            // text={'90%'}
-          />
-          <ProgressBar
-            title={"MATERIAL UI"}
-            // width={'90%'}
-            // text={'90%'}
-          />
-          <ProgressBar
-            title={"NEXTJS"}
-            // width={'90%'}
-            // text={'90%'}
-          />
-          <ProgressBar
-            title={"REDUX"}
-            // width={'70%'}
-            // text={'70%'}
-          />
-          <ProgressBar
-            title={"REACT NATIVE"}
-            // width={'70%'}
-            // text={'70%'}
-          />
-          <ProgressBar
-            title={"FIREBASE"}
-            // width={'90%'}
-            // text={'90%'}
-          />
-          <ProgressBar
-            title={"GIT"}
-            // width={'90%'}
-            // text={'90%'}
-          />
-          <ProgressBar
-            title={"GITHUB"}
-            // width={'90%'}
-            // text={'90%'}
-          />
+          <ProgressBar title={"HTML5"} />
+          <ProgressBar title={"CSS3"} />
+          <ProgressBar title={"BOOTSTRAP"} />
+          <ProgressBar title={"TAILWINDCSS"} />
+          <ProgressBar title={"SASS"} />
+          <ProgressBar title={"JAVASCRIPT"} />
+          <ProgressBar title={"REACTJS"} />
+          <ProgressBar title={"MATERIAL UI"} />
+          <ProgressBar title={"CHAKRA UI"} />
+          <ProgressBar title={"NEXTJS"} />
+          <ProgressBar title={"REDUX"} />
+          <ProgressBar title={"FIREBASE"} />
+          <ProgressBar title={"GIT"} />
+          <ProgressBar title={"GITHUB"} />
         </div>
       </InnerLayout>
     </SkillsStyled>
