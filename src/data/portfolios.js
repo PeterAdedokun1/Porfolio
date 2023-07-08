@@ -1,28 +1,33 @@
 import css1 from "../img/portImages/image1.png";
 import css2 from "../img/portImages/front.jpg";
 import img3 from "../img/portImages/random.png";
-import cal from "../img/portImages/cal.png";
 import plant from "../img/portImages/plant.png";
-import hermes from "../img/portImages/hermes-play.svg";
 import dash from "../img/portImages/dash.png";
 import startup from "../img/portImages/startup.png";
-import krunch from "../img/portImages/krunch.png";
 import groco from "../img/portImages/Groco.png";
 import porfolio from "../img/portImages/Porfolio.png";
-import coffee from "../img/portImages/coffee.png";
 import RealEstate from "../img/portImages/RealEstate.png";
 import LinkedIn from "../img/portImages/linkedin.png";
 import ECommerce from "../img/portImages/E-commerce.png";
-
+import interno from  "../img/portImages/interno.png"
 const portfolios = [
+  {
+    id: 12,
+    category: "React JS",
+    image: interno,
+    link1: "https://github.com/PeterAdedokun1/interno",
+    link2: "https://interno1-1-1.netlify.app/",
+    title: "LinkedIn Clone",
+    text: "I created my LinkedIn Home Landing Page using ReactJs and Styled  Components",
+  },
   {
     id: 12,
     category: "React JS",
     image: LinkedIn,
     link1: "https://github.com/PeterAdedokun1/linkedIn-clone",
     link2: "https://ade-peter-linkedin-clone.netlify.app/",
-    title: "LinkedIn Clone",
-    text: "I created my LinkedIn Home Landing Page using ReactJs and Styled  Components",
+    title: "Interno",
+    text: " created with ReactJs ",
   },
   {
     id: 13,
@@ -100,29 +105,12 @@ const portfolios = [
     title: "React DashBoard",
     text: "Created using different technologies such as Material UI, sass, Styled-Components and more...",
   },
-  {
-    id: 12,
-    category: "Javascript",
-    image: coffee,
-    link1: "https://github.com/PeterAdedokun1/coffee-website",
-    link2: "https://adedokun-peter-coffee.netlify.app/",
-    title: "Coffe Website",
-    text: "Coffe website created with Html,Css and Javascript.",
-  },
-  {
-    id: 8,
-    category: "React JS",
-    image: hermes,
-    link1: "https://github.com/PeterAdedokun1/Hermess   ",
-    link2: "https://adedokun-peter-hermes11.netlify.app/",
-    title: "Hermes Website",
-    text: "Created using different technologies such as Material UI, sass, Styled-Components and more...",
-  },
+
   {
     id: 9,
     category: "Next JS",
     image: startup,
-    // link1: 'https://www.google.com',
+    link1: "https://adedokun-peter-landingpage.netlify.app/",
     link2: "https://adedokun-peter-landingpage.netlify.app/",
     title: "Startup landing page",
     text: "Created Nextjs , Reactjs and styled component.",
@@ -136,16 +124,6 @@ const portfolios = [
     link2: "https://peterade-plant.netlify.app/",
     title: "Responsive Plant Website",
     text: "Created with only HTML, CSS AND JAVASCRIPT",
-  },
-
-  {
-    id: 11,
-    category: "Javascript",
-    image: cal,
-    link1: "https://github.com/PeterAdedokun1/Javascript-cal",
-    link2: "https://adedokun-peter-cal-app.netlify.app/",
-    title: "Javascript Calculator",
-    text: "Javascript Calculator with keyboard function",
   },
 ];
 export default portfolios;

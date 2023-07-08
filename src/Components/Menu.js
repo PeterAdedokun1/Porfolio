@@ -13,12 +13,12 @@ function Menu({ menuItem }) {
                 <img src={item.image} alt="" />
                 <ul>
                   <li>
-                    <a href={item.link1}>
+                    <a href={item.link1} target="_blank">
                       <GitHub />
                     </a>
                   </li>
                   <li>
-                    <a href={item.link2}>
+                    <a href={item.link2} target="_blank">
                       <Pinterest />
                     </a>
                   </li>
