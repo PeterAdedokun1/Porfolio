@@ -12,13 +12,13 @@ import ECommerce from "../img/portImages/E-commerce.png";
 import interno from  "../img/portImages/interno.png"
 const portfolios = [
   {
-    id: 12,
+    id: 19,
     category: "React JS",
     image: interno,
     link1: "https://github.com/PeterAdedokun1/interno",
     link2: "https://interno1-1-1.netlify.app/",
-    title: "LinkedIn Clone",
-    text: "I created my LinkedIn Home Landing Page using ReactJs and Styled  Components",
+    title: "Interno",
+    text: " created with ReactJs ",
   },
   {
     id: 12,
@@ -26,8 +26,9 @@ const portfolios = [
     image: LinkedIn,
     link1: "https://github.com/PeterAdedokun1/linkedIn-clone",
     link2: "https://ade-peter-linkedin-clone.netlify.app/",
-    title: "Interno",
-    text: " created with ReactJs ",
+
+    title: "LinkedIn Clone",
+    text: "I created my LinkedIn Home Landing Page using ReactJs and Styled  Components",
   },
   {
     id: 13,
