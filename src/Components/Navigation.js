@@ -30,7 +30,7 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2022 <b>PeterAde</b></p>
+                <p>@{ new Date().getFullYear()} <b>PeterAde</b></p>
             </footer>
         </NavigationStyled>
     )
