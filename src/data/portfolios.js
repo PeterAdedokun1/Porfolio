@@ -78,7 +78,7 @@ const portfolios = [
     category: "React JS",
     image: porfolio,
     link1: "https://github.com/PeterAdedokun1/Porfolio",
-    link2: "https://adedokun-peter-porfolio.netlify.app/",
+    link2: "https://my-porfolio-peteradedokun1.vercel.app/",
     title: "Responsive Portfolio Website",
   },
   {
