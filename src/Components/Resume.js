@@ -20,7 +20,7 @@ function Resume() {
             year={"2022 -2025 "}
             title={"B.Sc Petroluem and Gas Engineering "}
             subTitle={"University Of Lagos,Nigeria"}
-            text={'Lorem ipsum dolor sit'}
+            text={"Lorem ipsum dolor sit"}
           />
           <ResumeItem
             year={"2019 - 2020"}
@@ -34,7 +34,44 @@ function Resume() {
             subTitle={"Divine Grace Private Schools,Nigeria"}
             // text={' '}
           />
+          <ResumeItem
+            year={"2013 - 2019"}
+            title={"High School Graduation"}
+            subTitle={"Divine Grace Private Schools,Nigeria"}
+            // text={' '}
+          />{" "}
+          <ResumeItem
+            year={"2013 - 2019"}
+            title={"High School Graduation"}
+            subTitle={"Divine Grace Private Schools,Nigeria"}
+            // text={' '}
+          />{" "}
+          <ResumeItem
+            year={"feb 2022 - feb 2019"}
+            title={"High School Graduation"}
+            subTitle={"Divine Grace Private Schools,Nigeria"}
+            // text={' '}
+          />{" "}
+          <ResumeItem
+            year={"2013 - 2019"}
+            title={"High School Graduation"}
+            subTitle={"Divine Grace Private Schools,Nigeria"}
+            // text={' '}
+          />{" "}
+          <ResumeItem
+            year={"2013 - 2019"}
+            title={"High School Graduation"}
+            subTitle={"Divine Grace Private Schools,Nigeria"}
+            // text={' '}
+          />{" "}
+          <ResumeItem
+            year={"2013 - 2019"}
+            title={"High School Graduation"}
+            subTitle={"Divine Grace Private Schools,Nigeria"}
+            // text={' '}
+          />
         </div>
+
         <div className="small-title u-small-title-margin">
           <SmallTitle icon={school} title={"Educational Qualifications"} />
         </div>
