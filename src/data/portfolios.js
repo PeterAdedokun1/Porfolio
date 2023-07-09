@@ -9,12 +9,12 @@ import porfolio from "../img/portImages/Porfolio.png";
 import RealEstate from "../img/portImages/RealEstate.png";
 import LinkedIn from "../img/portImages/linkedin.png";
 import ECommerce from "../img/portImages/E-commerce.png";
-import interno from "../img/portImages/interno.png"
+import interno from "../img/portImages/interno.png";
 import comfy from "../img/portImages/comfy-sloth.png";
 import jobster from "../img/portImages/jobster.png";
 const portfolios = [
   {
-    id: 20,
+    id: 1,
     category: "React JS",
     image: comfy,
     link1: "https://github.com/PeterAdedokun1/comfy-Sloth",
@@ -23,7 +23,7 @@ const portfolios = [
     // text: " created with ReactJs and styled components ",
   },
   {
-    id: 19,
+    id: 2,
     category: "React JS",
     image: jobster,
     link1: "https://github.com/PeterAdedokun1/Jobster",
@@ -31,7 +31,7 @@ const portfolios = [
     title: "Jobster",
   },
   {
-    id: 19,
+    id: 3,
     category: "React JS",
     image: interno,
     link1: "https://github.com/PeterAdedokun1/interno",
@@ -39,16 +39,23 @@ const portfolios = [
     title: "Interno",
   },
   {
-    id: 12,
+    id: 4,
+    category: "Next JS",
+    image: startup,
+    link1: "https://adedokun-peter-landingpage.netlify.app/",
+    link2: "https://adedokun-peter-landingpage.netlify.app/",
+    title: "Startup landing page",
+  },
+  {
+    id: 5,
     category: "React JS",
     image: LinkedIn,
     link1: "https://github.com/PeterAdedokun1/linkedIn-clone",
     link2: "https://ade-peter-linkedin-clone.netlify.app/",
-
     title: "LinkedIn Clone",
   },
   {
-    id: 13,
+    id: 6,
     category: "Javascript",
     image: ECommerce,
     link1: "https://github.com/PeterAdedokun1/e-commerce-product-page",
@@ -56,33 +63,15 @@ const portfolios = [
     title: "E-commerce Product Landing Page",
   },
   {
-    id: 1,
+    id: 7,
     category: "CSS",
     image: css1,
     link1: "https://github.com/PeterAdedokun1/E-commere",
     link2: "https://adedokun-peter-ecommerce.netlify.app/",
     title: "Responsive E-commerce Website",
   },
-
   {
-    id: 2,
-    category: "Javascript",
-    image: groco,
-    link1: "https://github.com/PeterAdedokun1/groco",
-    link2: "https://adedokun-peter-groco-page-webpage.netlify.app/",
-    title: "Startup landing page",
-  },
-
-  {
-    id: 3,
-    category: "React JS",
-    image: porfolio,
-    link1: "https://github.com/PeterAdedokun1/Porfolio",
-    link2: "https://my-porfolio-peteradedokun1.vercel.app/",
-    title: "Responsive Portfolio Website",
-  },
-  {
-    id: 4,
+    id: 8,
     category: "CSS",
     image: css2,
     link1: "https://github.com/PeterAdedokun1/Front-project",
@@ -90,13 +79,12 @@ const portfolios = [
     title: "Front Website Project",
   },
   {
-    id: 5,
-    category: "Javascript",
-    image: img3,
-    link1:
-      "https://github.com/PeterAdedokun1/javacript-random-password-generator",
-    link2: "https://ade-random-password-generator.netlify.app/",
-    title: "Javascript Random Password Generator",
+    id: 9,
+    category: "React JS",
+    image: porfolio,
+    link1: "https://github.com/PeterAdedokun1/Porfolio",
+    link2: "https://my-porfolio-peteradedokun1.vercel.app/",
+    title: "Responsive Portfolio Website",
   },
   {
     id: 10,
@@ -106,9 +94,16 @@ const portfolios = [
     link2: "https://adedokun-peter-real-estate.netlify.app/",
     title: "Real Estate Website",
   },
-
   {
-    id: 7,
+    id: 11,
+    category: "Javascript",
+    image: groco,
+    link1: "https://github.com/PeterAdedokun1/groco",
+    link2: "https://adedokun-peter-groco-page-webpage.netlify.app/",
+    title: "Startup landing page",
+  },
+  {
+    id: 12,
     category: "React JS",
     image: dash,
     link1: "https://github.com/PeterAdedokun1/react-dashboard",
@@ -117,16 +112,17 @@ const portfolios = [
   },
 
   {
-    id: 9,
-    category: "Next JS",
-    image: startup,
-    link1: "https://adedokun-peter-landingpage.netlify.app/",
-    link2: "https://adedokun-peter-landingpage.netlify.app/",
-    title: "Startup landing page",
+    id: 13,
+    category: "Javascript",
+    image: img3,
+    link1:
+      "https://github.com/PeterAdedokun1/javacript-random-password-generator",
+    link2: "https://ade-random-password-generator.netlify.app/",
+    title: "Javascript Random Password Generator",
   },
 
   {
-    id: 6,
+    id: 14,
     category: "CSS",
     image: plant,
     link1: "https://github.com/PeterAdedokun1/plant-project",
