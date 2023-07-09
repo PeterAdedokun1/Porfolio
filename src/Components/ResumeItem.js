@@ -10,7 +10,7 @@ function ResumeItem({ year, title, subTitle, text }) {
       <div className="right-content">
         <h5>{title}</h5>
         <h6>{subTitle}</h6>
-        <p>{text}</p>
+        <div  dangerouslySetInnerHTML={{__html: text}}/>
       </div>
     </ResumeItemStyled>
   );
@@ -18,6 +18,50 @@ function ResumeItem({ year, title, subTitle, text }) {
 
 const ResumeItemStyled = styled.div`
   display: flex;
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    .left-content {
+      width: 100%;
+      max-width: 275px;
+      margin: 0 auto;
+      p {
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+    .left-content {
+      width: 100%;
+      max-width: 220px;
+      margin: 0 auto;
+      p {
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 350px) {
+    flex-direction: column;
+    .left-content {
+      width: 100%;
+      max-width: 165px;
+      margin: 0 auto;
+      p {
+        width: 100%;
+      }
+    }
+  }
+  /* @media screen and (max-width: 300px) {
+    flex-direction: column;
+    .left-content {
+      width: 100%;
+      max-width: 100px;
+      margin: 0 auto;
+      p {
+        width: 100%;
+      }
+    }
+  }  */
   @media screen and (max-width: 421px) {
     p,
     h5,
@@ -32,6 +76,9 @@ const ResumeItemStyled = styled.div`
     width: 20%;
     padding-left: 20px;
     position: relative;
+    @media screen and (max-width: 500px) {
+      width: 100%;
+    }
     &::before {
       content: "";
       position: absolute;
@@ -63,8 +110,9 @@ const ResumeItemStyled = styled.div`
     }
     h6 {
       padding-bottom: 0.6rem;
-      font-size: 1.0rem;
-    }p{
+      font-size: 1rem;
+    }
+    p {
       font-size: 0.9rem;
     }
   }
