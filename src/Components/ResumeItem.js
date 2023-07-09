@@ -10,7 +10,7 @@ function ResumeItem({ year, title, subTitle, text }) {
       <div className="right-content">
         <h5>{title}</h5>
         <h6>{subTitle}</h6>
-        <div  dangerouslySetInnerHTML={{__html: text}}/>
+        <div dangerouslySetInnerHTML={{ __html: text }} />
       </div>
     </ResumeItemStyled>
   );
@@ -51,17 +51,7 @@ const ResumeItemStyled = styled.div`
       }
     }
   }
-  /* @media screen and (max-width: 300px) {
-    flex-direction: column;
-    .left-content {
-      width: 100%;
-      max-width: 100px;
-      margin: 0 auto;
-      p {
-        width: 100%;
-      }
-    }
-  }  */
+
   @media screen and (max-width: 421px) {
     p,
     h5,

@@ -17,16 +17,40 @@ function Resume() {
         </div>
         <div className="resume-content ">
           <ResumeItem
-            year={" feb 2022 - aug 2025 "}
-            title={"Frontend Developer Intern "}
-            subTitle={"Oly Group, United Kingdom "}
-            text={` <p>1. Worked with backend and mobile developers for continuous development and deployment <br/> 2. Assisted in writing well designed, testable, efficient code by using best software development practices. <br/> 3. Optimizing site speed and performance <br/> 4. Assisted in maintaining, expanding, and scaling sites<br/> 5. Optimizing components for maximum performance across a vast array of web-capable devices and browsers <br/> 6. Translating designs and wireframes into high quality code</p>`}
+            year={"Jul 2023 - Present"}
+            title={"Frontend Developer  "}
+            subTitle={"Utidia, Lagos , Nigeria"}
           />
           <ResumeItem
-            year={" feb 2022 - aug 2025 "}
+            year={" Sep 2022 - Present"}
+            title={"Frontend Developer  "}
+            subTitle={"Babsoft Solutions, Lagos , Nigeria"}
+          />
+          <ResumeItem
+            year={" Feb 2023 - May 2023"}
+            title={"Frontend Developer  "}
+            subTitle={"Primal International Journals, Ondo State, Nigeria"}
+          />
+          <ResumeItem
+            year={" Sep 2022 - Dec 2022"}
+            title={"Frontend Engineer Intern "}
+            subTitle={"KawanBantu ,Jagakarsa, Indonesia"}
+            text=""
+          />
+          <ResumeItem
+            year={" Jun 2022 - Sep 2022 "}
+            title={"Frontend Developer Intern "}
+            subTitle={"CYBERINITIATION , Delhi, India"}
+          />
+          <ResumeItem
+            year={" May 2022 - Jul 2022 "}
+            title={"Frontend Developer Intern "}
+            subTitle={"Zuri Team, Inc, Nigeria"}
+          />
+          <ResumeItem
+            year={" Nov 2021 - May 2022"}
             title={"Frontend Developer Intern "}
             subTitle={"Oly Group, United Kingdom "}
-            text={` <p>1. Worked with backend and mobile developers for continuous development and deployment <br/> 2. Assisted in writing well designed, testable, efficient code by using best software development practices. <br/> 3. Optimizing site speed and performance <br/> 4. Assisted in maintaining, expanding, and scaling sites<br/> 5. Optimizing components for maximum performance across a vast array of web-capable devices and browsers <br/> 6. Translating designs and wireframes into high quality code</p>`}
           />
         </div>
 
