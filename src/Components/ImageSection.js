@@ -26,16 +26,14 @@ function ImageSection() {
         <div className="about-info">
           <div className="info-title">
             <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality </p>
+
             <p>Languages </p>
             <p>Location</p>
             <p>Service</p>
           </div>
           <div className="info">
             <p>: Adedokun Peter Opeyemi</p>
-            <p>: 18</p>
-            <p>: Nigeria</p>
+
             <p>: English </p>
             <p>: Lagos, Nigeria</p>
             <p>: Freelance,Web Development</p>
