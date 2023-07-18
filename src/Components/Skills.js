@@ -18,7 +18,7 @@ function Skills() {
           <ProgressBar title={"SASS"} />
           <ProgressBar title={"JAVASCRIPT"} />
           <ProgressBar title={"REACTJS"} />
-          <ProgressBar title={"MATERIAL UI"} />
+          <ProgressBar title={"REACT NATIVE"} />
           <ProgressBar title={"CHAKRA UI"} />
           <ProgressBar title={"NEXTJS"} />
           <ProgressBar title={"REDUX"} />
