@@ -8,16 +8,13 @@ import ResumeItem from "../Components/ResumeItem";
 import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
 function Resume() {
   const school = <SchoolIcon />;
-   const briefcase = <BusinessCenterIcon />;
+  const briefcase = <BusinessCenterIcon />;
   return (
     <ResumeStyled>
       <Title title={"Resume"} span={"resume"} />
       <InnerLayout>
-       
-         
-          <div className="small-title">
-            <SmallTitle icon={briefcase} title={"Working Experience"} />
-          
+        <div className="small-title">
+          <SmallTitle icon={briefcase} title={"Working Experience"} />
         </div>
         <div className="resume-content ">
           <ResumeItem

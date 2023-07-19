@@ -39,7 +39,7 @@ function ImageSection() {
             <p>: Freelance,Web Development</p>
           </div>
         </div>
-        <a href="https://drive.google.com/file/d/1g5-RC622c1qcZMudslrS1d_oEl1ItOp0/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1Q32loc3aVADvpEGpyxUrk5k-Mu-ksn-n/view">
           <PrimaryButton title={"Download Cv"} />
         </a>
       </div>
