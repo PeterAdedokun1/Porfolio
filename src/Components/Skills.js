@@ -25,6 +25,8 @@ function Skills() {
           <ProgressBar title={"FIREBASE"} />
           <ProgressBar title={"GIT"} />
           <ProgressBar title={"GITHUB"} />
+          <ProgressBar title={"NODEJS"} />
+          <ProgressBar title={"EXPRESS"} />
         </div>
       </InnerLayout>
     </SkillsStyled>
