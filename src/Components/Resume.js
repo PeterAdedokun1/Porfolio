@@ -51,7 +51,7 @@ function Resume() {
           <ResumeItem
             year={" Nov 2021 - May 2022"}
             title={"Frontend Developer Intern "}
-            subTitle={"Stranerd Lagos, Nigeria "}
+            subTitle={"Stranerd, Lagos, Nigeria "}
           />
         </div>
 
