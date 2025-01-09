@@ -20,7 +20,6 @@ const portfolios = [
     link1: "https://github.com/PeterAdedokun1/comfy-Sloth",
     link2: "https://peter-comfy-sloth.netlify.app/",
     title: "ComfySloth",
-    // text: " created with ReactJs and styled components ",
   },
   {
     id: 2,

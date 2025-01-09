@@ -18,14 +18,14 @@ function Resume() {
         </div>
         <div className="resume-content ">
           <ResumeItem
-            year={"Jul 2023 - Present"}
+            year={"Aug 2024 - Present"}
             title={"Frontend Developer  "}
-            subTitle={"Utidia, Lagos , Nigeria"}
+            subTitle={"EventPadi, Lagos , Nigeria"}
           />
           <ResumeItem
-            year={" Sep 2022 - Present"}
+            year={"Feb 2023 - Nov 2024"}
             title={"Frontend Developer  "}
-            subTitle={"Babsoft Solutions, Lagos , Nigeria"}
+            subTitle={"Edssistance, Lagos , Nigeria"}
           />
           <ResumeItem
             year={" Feb 2023 - May 2023"}
@@ -51,7 +51,7 @@ function Resume() {
           <ResumeItem
             year={" Nov 2021 - May 2022"}
             title={"Frontend Developer Intern "}
-            subTitle={"Oly Group, United Kingdom "}
+            subTitle={"Stranerd Lagos, Nigeria "}
           />
         </div>
 

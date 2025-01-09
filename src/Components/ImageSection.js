@@ -14,14 +14,11 @@ function ImageSection() {
           I am <span>Adedokun Peter</span>
         </h4>
         <p className="paragraph">
-          I am an outstanding Frontend Developer with extensive knowledge of
-          Javascript and browser API as well as significant experience with
-          popular frameworks and libraries like React and Redux. Skilled in
-          designing, developing and testing multiple web-based applications
-          incorporating a range of technologies . Eager to tackle more complex
-          problems and continue to find ways to maximize user efficiency.
-          Aspiring to combine broad with strong techincal skills to excel as a
-          Frontend Developer
+          I am a skilled and results-driven Frontend Developer with extensive expertise in JavaScript and browser APIs, along with significant
+          experience working with popular frameworks and libraries such as React, Redux, and Node.js. Proficient in designing, developing, and testing diverse web-based applications using a wide range of modern technologies.
+          I am passionate about solving complex problems and continually optimizing user experiences to maximize efficiency. With a strong
+          technical foundation and a broad background, I aim to excel as a Frontend Developer, contributing to innovative and impactful
+          projects
         </p>
         <div className="about-info">
           <div className="info-title">
@@ -39,7 +36,7 @@ function ImageSection() {
             <p>: Freelance,Web Development</p>
           </div>
         </div>
-        <a href="https://drive.google.com/file/d/1mD8helYz4ljtZd_pZd9iRbx6Xi2PrZtW/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1yQ7BKa9Gr5GE8dBAevrxmsv-Y6efHJd8/view">
           <PrimaryButton title={"Download Cv"} />
         </a>
       </div>
